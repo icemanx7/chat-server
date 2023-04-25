@@ -1081,3 +1081,340 @@ WARNING: Unmatched cancel notification for request id 4823
 2023.04.25 11:23:56 INFO  time: compiled root in 0.43s
 2023.04.25 11:24:05 INFO  compiling root (1 scala source)
 2023.04.25 11:24:07 INFO  time: compiled root in 1.25s
+Apr 25, 2023 11:30:43 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 25, 2023 11:30:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:422)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Apr 25, 2023 11:30:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5320
+2023.04.25 11:30:46 INFO  compiling root (1 scala source)
+2023.04.25 11:30:46 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:30:47 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:30:47 INFO  time: compiled root in 1.42s
+2023.04.25 11:31:06 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:20: error: [dialect scala213] illegal start of simple pattern
+    } yield ()
+    ^
+2023.04.25 11:31:06 INFO  compiling root (1 scala source)
+2023.04.25 11:31:06 INFO  time: compiled root in 0.11s
+2023.04.25 11:31:34 INFO  compiling root (1 scala source)
+2023.04.25 11:31:36 INFO  time: compiled root in 1.66s
+2023.04.25 11:32:26 INFO  compiling root (1 scala source)
+2023.04.25 11:32:28 INFO  time: compiled root in 1.39s
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[<error>,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 447)
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[<error>,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 448)
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[<error>,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 447)
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[cats.effect.IO,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 447)
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[cats.effect.IO,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 448)
+something's wrong: no file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala in cats.effect.std.Queue[cats.effect.IO,<error>]RangePosition(file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala, 429, 429, 441)
+2023.04.25 11:33:14 INFO  compiling root (1 scala source)
+2023.04.25 11:33:16 INFO  time: compiled root in 1.47s
+2023.04.25 11:33:20 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:20: error: [dialect scala213] illegal start of simple pattern
+    } yield ()
+    ^
+2023.04.25 11:33:21 INFO  compiling root (1 scala source)
+2023.04.25 11:33:21 INFO  time: compiled root in 0.12s
+2023.04.25 11:33:21 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:27 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:32 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:32 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:33 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:34 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:20: error: [dialect scala213] illegal start of simple pattern
+    } yield ()
+    ^
+2023.04.25 11:33:34 INFO  compiling root (1 scala source)
+2023.04.25 11:33:34 INFO  time: compiled root in 0.12s
+2023.04.25 11:33:35 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:40 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:40 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:41 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:33:46 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:05 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:10 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:12 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:13 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:13 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:15 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:20 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:20 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:26 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:28 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:28: error: [dialect scala213] } expected but yield found
+    } yield ()
+      ^
+2023.04.25 11:34:28 INFO  compiling root (1 scala source)
+2023.04.25 11:34:28 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:28 INFO  time: compiled root in 0.26s
+2023.04.25 11:34:29 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:35 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:36 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:37 INFO  compiling root (1 scala source)
+2023.04.25 11:34:37 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:37 INFO  time: compiled root in 0.33s
+2023.04.25 11:34:37 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:42 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:44 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:45 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:46 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:50 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:50 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:52 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:53 INFO  compiling root (1 scala source)
+2023.04.25 11:34:54 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:34:54 INFO  time: compiled root in 1.01s
+2023.04.25 11:35:23 INFO  compiling root (1 scala source)
+2023.04.25 11:35:24 INFO  time: compiled root in 1.16s
+2023.04.25 11:35:49 INFO  compiling root (1 scala source)
+2023.04.25 11:35:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:35:50 INFO  time: compiled root in 1.43s
+2023.04.25 11:36:22 INFO  compiling root (1 scala source)
+2023.04.25 11:36:22 INFO  time: compiled root in 0.26s
+2023.04.25 11:36:34 INFO  compiling root (1 scala source)
+2023.04.25 11:36:35 INFO  time: compiled root in 1.18s
+2023.04.25 11:36:56 INFO  compiling root (1 scala source)
+2023.04.25 11:36:57 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:36:58 INFO  time: compiled root in 1.41s
+2023.04.25 11:37:01 INFO  compiling root (1 scala source)
+2023.04.25 11:37:01 INFO  time: compiled root in 0.88s
+2023.04.25 11:37:12 INFO  compiling root (1 scala source)
+2023.04.25 11:37:12 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:37:15 INFO  time: compiled root in 3.34s
+2023.04.25 11:37:30 INFO  compiling root (1 scala source)
+2023.04.25 11:37:32 INFO  time: compiled root in 1.83s
+2023.04.25 11:37:34 INFO  compiling root (1 scala source)
+2023.04.25 11:37:34 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:37:35 INFO  time: compiled root in 1.19s
+Apr 25, 2023 11:38:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6989
+Apr 25, 2023 11:38:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 2)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1030)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.nonLocalMember(Types.scala:652)
+	at scala.tools.nsc.typechecker.Contexts$ImportInfo.importedSelectedSymbol(Contexts.scala:1865)
+	at scala.tools.nsc.typechecker.Contexts$SymbolLookup.apply(Contexts.scala:1492)
+	at scala.tools.nsc.typechecker.Contexts$Context.lookupSymbol(Contexts.scala:1298)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdent$2(Typers.scala:5476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdentOrWildcard$1(Typers.scala:5528)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5989)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedHigherKindedType$1(Typers.scala:6239)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedHigherKindedType(Typers.scala:6239)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$90(Typers.scala:5787)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTypeApply$1(Typers.scala:5787)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5968)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2558)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5966)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDefDef(Typers.scala:6311)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5956)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2057)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5958)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5640)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:467)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1369)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1362)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.meta.internal.pc.PcCollector.<init>(PcCollector.scala:29)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.<init>(PcDocumentHighlightProvider.scala:11)
+
+2023.04.25 11:38:36 INFO  compiling root (1 scala source)
+2023.04.25 11:38:38 INFO  time: compiled root in 1.37s
+2023.04.25 11:41:13 INFO  compiling root (1 scala source)
+2023.04.25 11:41:13 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:41:15 INFO  time: compiled root in 1.81s
+2023.04.25 11:43:01 INFO  compiling root (1 scala source)
+2023.04.25 11:43:03 INFO  time: compiled root in 1.71s
+2023.04.25 11:44:58 INFO  compiling root (1 scala source)
+2023.04.25 11:45:00 INFO  time: compiled root in 2.02s
+2023.04.25 11:46:32 INFO  compiling root (1 scala source)
+2023.04.25 11:46:32 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:46:34 INFO  time: compiled root in 1.48s
+2023.04.25 11:50:38 INFO  compiling root (1 scala source)
+2023.04.25 11:50:39 INFO  time: compiled root in 1.62s
+2023.04.25 11:50:43 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:25: error: [dialect scala213] <- expected but = found
+          _ = println("In loop")
+            ^
+2023.04.25 11:50:43 INFO  compiling root (1 scala source)
+2023.04.25 11:50:43 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:43 INFO  time: compiled root in 0.2s
+2023.04.25 11:50:44 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:46 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:48 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:49 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:25: error: [dialect scala213] <- expected but = found
+          _ = IO(println("In loop"))
+            ^
+2023.04.25 11:50:49 INFO  compiling root (1 scala source)
+2023.04.25 11:50:49 INFO  time: compiled root in 0.12s
+2023.04.25 11:50:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:50 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:52 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:52 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:53 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:55 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:57 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:58 INFO  compiling root (1 scala source)
+2023.04.25 11:50:58 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:50:59 INFO  time: compiled root in 1.45s
+2023.04.25 11:55:42 INFO  compiling root (1 scala source)
+2023.04.25 11:55:42 INFO  time: compiled root in 0.47s
+2023.04.25 11:56:04 INFO  compiling root (1 scala source)
+2023.04.25 11:56:06 INFO  time: compiled root in 1.63s
+2023.04.25 11:56:30 INFO  compiling root (1 scala source)
+2023.04.25 11:56:30 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:56:31 INFO  time: compiled root in 1.34s
+Apr 25, 2023 11:59:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8099
+2023.04.25 11:59:17 INFO  compiling root (1 scala source)
+2023.04.25 11:59:20 INFO  time: compiled root in 2.56s
+2023.04.25 11:59:22 INFO  compiling root (1 scala source)
+2023.04.25 11:59:22 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 11:59:24 INFO  time: compiled root in 1.64s
+2023.04.25 11:59:30 INFO  compiling root (1 scala source)
+2023.04.25 11:59:32 INFO  time: compiled root in 1.56s
+Apr 25, 2023 12:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8266
+2023.04.25 12:01:31 INFO  compiling root (1 scala source)
+2023.04.25 12:01:33 INFO  time: compiled root in 1.52s
+2023.04.25 12:07:59 INFO  compiling root (1 scala source)
+2023.04.25 12:07:59 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:07:59 INFO  time: compiled root in 0.47s
+2023.04.25 12:08:00 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:08:06 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:08:08 INFO  compiling root (1 scala source)
+2023.04.25 12:08:08 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:08:09 INFO  time: compiled root in 1.28s
+2023.04.25 12:10:36 INFO  compiling root (1 scala source)
+2023.04.25 12:10:36 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 12:10:38 INFO  time: compiled root in 2.23s
+2023.04.25 12:11:51 INFO  compiling root (1 scala source)
+2023.04.25 12:11:52 INFO  time: compiled root in 1.53s
+2023.04.25 12:11:52 INFO  compiling root (1 scala source)
+2023.04.25 12:11:53 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:11:52 INFO  time: compiled root in 0.58s
+Apr 25, 2023 12:12:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8618
+2023.04.25 12:14:21 INFO  compiling root (1 scala source)
+2023.04.25 12:14:21 INFO  time: compiled root in 0.45s
+2023.04.25 12:14:27 INFO  compiling root (1 scala source)
+2023.04.25 12:14:27 INFO  time: compiled root in 0.24s
+2023.04.25 12:14:37 INFO  compiling root (1 scala source)
+2023.04.25 12:14:37 INFO  time: compiled root in 0.27s
+2023.04.25 12:14:43 INFO  compiling root (1 scala source)
+2023.04.25 12:14:44 INFO  time: compiled root in 1.12s
+Apr 25, 2023 12:14:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9055
+2023.04.25 12:14:59 INFO  compiling root (1 scala source)
+2023.04.25 12:14:59 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 12:15:00 INFO  time: compiled root in 1.39s
+2023.04.25 12:16:01 INFO  compiling root (1 scala source)
+2023.04.25 12:16:02 INFO  time: compiled root in 1.63s
+Apr 25, 2023 1:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9238
+2023.04.25 13:13:16 INFO  compiling root (1 scala source)
+2023.04.25 13:13:16 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 13:13:17 INFO  time: compiled root in 1.78s
+2023.04.25 13:14:48 INFO  compiling root (1 scala source)
+2023.04.25 13:14:50 INFO  time: compiled root in 2.34s
+2023.04.25 13:22:51 INFO  compiling root (1 scala source)
+2023.04.25 13:22:54 INFO  time: compiled root in 2.58s
+2023.04.25 13:22:54 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 13:24:04 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 13:24:31 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 13:24:49 INFO  compiling root (1 scala source)
+2023.04.25 13:24:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 13:24:54 INFO  time: compiled root in 4.6s
+2023.04.25 13:25:50 INFO  compiling root (1 scala source)
+2023.04.25 13:25:52 INFO  time: compiled root in 2.27s
+2023.04.25 13:28:02 INFO  compiling root (1 scala source)
+2023.04.25 13:28:02 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 13:28:04 INFO  time: compiled root in 1.91s
+2023.04.25 13:35:10 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:73: error: [dialect scala213] illegal start of simple expression
+}
+^
+2023.04.25 13:35:10 INFO  compiling root (1 scala source)
+2023.04.25 13:35:10 INFO  time: compiled root in 0.3s
+2023.04.25 13:35:17 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:52: error: [dialect scala213] ; expected but <- found
+      _ <- deferred.get
+        ^
+2023.04.25 13:35:17 INFO  compiling root (1 scala source)
+2023.04.25 13:35:17 INFO  time: compiled root in 0.16s
+2023.04.25 13:35:38 INFO  compiling root (1 scala source)
+2023.04.25 13:35:38 INFO  time: compiled root in 0.4s
+2023.04.25 13:35:45 INFO  compiling root (1 scala source)
+2023.04.25 13:35:45 INFO  time: compiled root in 0.23s
+2023.04.25 13:35:50 INFO  compiling root (1 scala source)
+2023.04.25 13:35:50 INFO  time: compiled root in 0.27s
+2023.04.25 13:35:54 INFO  compiling root (1 scala source)
+2023.04.25 13:35:54 INFO  time: compiled root in 0.63s
+2023.04.25 13:35:57 INFO  compiling root (1 scala source)
+2023.04.25 13:35:57 INFO  time: compiled root in 0.34s
+2023.04.25 13:36:01 INFO  compiling root (1 scala source)
+2023.04.25 13:36:01 INFO  time: compiled root in 0.19s
+2023.04.25 13:36:12 INFO  compiling root (1 scala source)
+2023.04.25 13:36:12 INFO  time: compiled root in 0.28s
+2023.04.25 13:36:20 INFO  compiling root (1 scala source)
+2023.04.25 13:36:20 INFO  time: compiled root in 0.34s
+2023.04.25 13:36:51 INFO  compiling root (1 scala source)
+2023.04.25 13:36:51 INFO  time: compiled root in 0.46s
+2023.04.25 13:36:55 INFO  compiling root (1 scala source)
+2023.04.25 13:36:56 INFO  time: compiled root in 1.21s
+2023.04.25 13:38:14 INFO  compiling root (1 scala source)
+2023.04.25 13:38:14 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 13:38:15 INFO  time: compiled root in 1.82s
+2023.04.25 13:38:40 INFO  compiling root (1 scala source)
+2023.04.25 13:38:40 INFO  time: compiled root in 0.54s
+2023.04.25 13:38:52 INFO  file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:28:23: stale bloop error: value forEach is not a member of String
+          _ = println(text.forEach(_ => println()))
+                      ^^^^^^^^^^^^
+2023.04.25 13:38:52 INFO  file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:28:23: stale bloop error: value forEach is not a member of String
+          _ = println(text.forEach(_ => println()))
+                      ^^^^^^^^^^^^
+2023.04.25 13:38:54 INFO  compiling root (1 scala source)
+2023.04.25 13:38:56 INFO  time: compiled root in 1.51s
+2023.04.25 13:40:49 INFO  compiling root (1 scala source)
+2023.04.25 13:40:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 13:40:51 INFO  time: compiled root in 1.61s
+2023.04.25 13:42:41 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala

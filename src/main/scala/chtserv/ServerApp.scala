@@ -40,6 +40,7 @@ object ServerApp extends IOApp {
           Monad[IO].pure(Left(true))
         }
       }
+      _ = println("MAIN THREAD")
     } yield (ExitCode.Success)
   }
 
@@ -67,7 +68,9 @@ object ServerApp extends IOApp {
         for {
           _ <- Console[IO].println("reading users message")
           userText <- IO(reader.readLine())
-          _ <- Console[IO].println(s"The user text \n $userText")
+          _ <- Console[IO].println(
+            s"Username: ${user.userNickName} \n The user text \n $userText \n =============="
+          )
           listUsers <- list.allMinusMe(nickName)
           res <-
             if (userText == "exit") {
@@ -77,6 +80,7 @@ object ServerApp extends IOApp {
               println(listUsers)
               IO(listUsers.foreach { ff =>
                 ff.userOutPutStream.write(userText)
+                ff.userOutPutStream.newLine
                 ff.userOutPutStream.flush
               }) >>
                 IO(Left(reader))

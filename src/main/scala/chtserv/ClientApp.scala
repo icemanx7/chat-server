@@ -14,6 +14,21 @@ import cats.effect.std._
 
 object ClientApp extends IOApp {
 
+  private def messageQueueListener(
+      reader: BufferedReader,
+      queue: Queue[IO, String]
+  ): IO[Boolean] = {
+    for {
+      ff <- Monad[IO].tailRecM[Boolean, Boolean](true) { resf =>
+        println("Reading queue")
+        for {
+          text <- IO.delay(reader.readLine())
+          _ <- queue.tryOffer(text)
+          res <- IO(Left(true))
+        } yield res
+      }
+    } yield ff
+  }
   override def run(args: List[String]): IO[ExitCode] = {
     val socket = new Socket("127.0.0.1", 9080)
     val cOutput = new BufferedWriter(
@@ -27,6 +42,8 @@ object ClientApp extends IOApp {
       )
     )
     for {
+      q <- Queue.bounded[IO, String](10)
+      fz <- messageQueueListener(cInput, q).start
       userName <- Console[IO].readLine
       _ = println("Signing in")
       _ = println(userName)
@@ -35,10 +52,11 @@ object ClientApp extends IOApp {
       _ <- IO(cOutput.flush())
       ff <- Monad[IO].tailRecM[Boolean, Boolean](true) { resf =>
         for {
-          text <- IO.blocking(Console[IO].readLine).flatten
+          text <- Console[IO].readLine
           _ <- IO(cOutput.write(text))
           _ <- IO(cOutput.newLine())
           _ <- IO(cOutput.flush())
+          _ <- q.tryTake.flatMap(str => IO(println(str)))
           res <- IO(Left(true))
         } yield res
       }
