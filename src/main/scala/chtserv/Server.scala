@@ -13,46 +13,33 @@ import java.net.ServerSocket
 import cats.Monad
 import cats.instances.tailRec
 import scala.annotation.tailrec
+import cats.effect.kernel.Ref
+import cats.effect.std
 
 object Server extends IOApp {
   val listener: ServerSocket = new ServerSocket(9080)
   def run(args: List[String]): IO[ExitCode] = {
     for {
-      server <- createServer().foreverM.start.whileM_(IO(true))
+      ref <- Ref[IO].of(0)
+      server <- Monad[IO].tailRecM[Boolean, Boolean](true) { refs =>
+        val clientT = createServer(ref).start
+        clientT.flatMap { ss =>
+          Monad[IO].pure(Left(true))
+        }
+      }
       _ <- IO.println("richard")
     } yield (ExitCode.Success)
   }
 
-  private def createServer() = {
+  private def createServer(list: Ref[IO, Int]) = {
     IO {
       val dd = listener.accept()
-      val in = // 3rd statement
+      val in =
         new BufferedReader(new InputStreamReader(dd.getInputStream()));
       println("user joined")
-
-      // @tailrec
-      // def runWhile(arg: BufferedReader): Unit = {
-      //   println("ri")
-      //   val z = arg.readLine()
-      //   if (z == "exist") {
-      //     println("User is done")
-      //     arg.close()
-      //   } else {
-      //     println("restart")
-      //     println(z)
-      //     runWhile(arg)
-      //   }
-
-      // }
-      // runWhile(in)
-      // while (true) {
-      //   println("ri")
-      //   val z = in.readLine()
-      //   println(z)
-      //   println("zc")
-      // }
-
-      Monad[IO].tailRecM[BufferedReader, Boolean](in) { reader =>
+      val addUser =
+        list.updateAndGet(x => x + 1).flatMap(myID => IO(println(myID)))
+      addUser >> Monad[IO].tailRecM[BufferedReader, Boolean](in) { reader =>
         println("ri")
         for {
           z <- IO(reader.readLine())

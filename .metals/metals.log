@@ -139,3 +139,604 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.04.25 07:03:26 INFO  time: compiled root in 0.44s
 2023.04.25 07:04:27 INFO  compiling root (1 scala source)
 2023.04.25 07:04:27 INFO  time: compiled root in 0.3s
+2023.04.25 07:04:46 INFO  compiling root (1 scala source)
+2023.04.25 07:04:46 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:04:46 INFO  time: compiled root in 0.32s
+2023.04.25 07:07:42 INFO  compiling root (1 scala source)
+2023.04.25 07:07:42 INFO  time: compiled root in 59ms
+2023.04.25 07:07:48 INFO  compiling root (1 scala source)
+2023.04.25 07:07:48 INFO  time: compiled root in 83ms
+2023.04.25 07:07:57 INFO  compiling root (1 scala source)
+2023.04.25 07:07:57 INFO  time: compiled root in 65ms
+Apr 25, 2023 7:08:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: tail of empty list
+java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.reflect.internal.tpe.TypeConstraints$UndoLog.undoTo(TypeConstraints.scala:52)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:307)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.Types$Type.$less$colon$less(Types.scala:809)
+	at scala.reflect.internal.tpe.TypeComparers.isPolySubType(TypeComparers.scala:364)
+	at scala.reflect.internal.tpe.TypeComparers.isSub2$1(TypeComparers.scala:410)
+	at scala.reflect.internal.tpe.TypeComparers.isSub$1(TypeComparers.scala:407)
+	at scala.reflect.internal.tpe.TypeComparers.isHKSubType(TypeComparers.scala:433)
+	at scala.reflect.internal.tpe.TypeComparers.isHKSubType$(TypeComparers.scala:382)
+	at scala.reflect.internal.SymbolTable.isHKSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:446)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.Types.isSubArg$1(Types.scala:4764)
+	at scala.reflect.internal.Types.$anonfun$isSubArgs$1(Types.scala:4768)
+	at scala.reflect.internal.Types.isSubArgs(Types.scala:4768)
+	at scala.reflect.internal.Types.isSubArgs$(Types.scala:4762)
+	at scala.reflect.internal.SymbolTable.isSubArgs(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.firstTry$1(TypeComparers.scala:470)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:615)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.firstTry$1(TypeComparers.scala:476)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:615)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.Types$Type.$less$colon$less(Types.scala:809)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.loop$3(Implicits.scala:769)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.checkCompatibility(Implicits.scala:771)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.normSubType(Implicits.scala:469)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.matchesPt(Implicits.scala:653)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPt(Implicits.scala:663)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.survives(Implicits.scala:1048)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.eligibleNew(Implicits.scala:1125)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.<init>(Implicits.scala:1179)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1307)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1727)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:112)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:91)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:88)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:46)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:45)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:263)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:869)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:488)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1273)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6062)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTypeApply$1(Typers.scala:6139)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5968)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2558)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5966)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:3421)
+	at scala.tools.nsc.typechecker.Typers$Typer.handlePolymorphicCall$1(Typers.scala:3822)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3841)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5101)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.computeType(Typers.scala:6136)
+	at scala.tools.nsc.typechecker.Namers$Namer.assignTypeToTree(Namers.scala:1127)
+	at scala.tools.nsc.typechecker.Namers$Namer.methodSig(Namers.scala:1447)
+	at scala.tools.nsc.typechecker.Namers$Namer.memberSig(Namers.scala:1927)
+	at scala.tools.nsc.typechecker.Namers$Namer.typeSig(Namers.scala:1878)
+	at scala.tools.nsc.typechecker.Namers$Namer$MonoTypeCompleter.completeImpl(Namers.scala:874)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:2075)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:2073)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:2068)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1563)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1535)
+	at scala.meta.internal.pc.CompletionItemResolver.fullDocstring(CompletionItemResolver.scala:66)
+	at scala.meta.internal.pc.CompletionItemResolver.$anonfun$handleSymbol$2(CompletionItemResolver.scala:39)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs(ItemResolver.scala:75)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs$(ItemResolver.scala:14)
+	at scala.meta.internal.pc.CompletionItemResolver.enrichDocs(CompletionItemResolver.scala:8)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:40)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+
+2023.04.25 07:08:15 INFO  compiling root (1 scala source)
+2023.04.25 07:08:15 INFO  time: compiled root in 58ms
+2023.04.25 07:09:08 INFO  file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:26:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: cats.effect.IO[Either[cats.effect.kernel.Ref[cats.effect.IO,Int],?]]
+      }
+      ^
+2023.04.25 07:09:08 INFO  file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:26:7: stale bloop error: type mismatch;
+ found   : Unit
+ required: cats.effect.IO[Either[cats.effect.kernel.Ref[cats.effect.IO,Int],?]]
+      }
+      ^
+2023.04.25 07:09:11 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:29: error: [dialect scala213] illegal start of simple expression
+      }
+      ^
+2023.04.25 07:09:11 INFO  compiling root (1 scala source)
+2023.04.25 07:09:11 INFO  time: compiled root in 27ms
+2023.04.25 07:09:53 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:30: error: [dialect scala213] illegal start of simple expression
+      }
+      ^
+2023.04.25 07:09:53 INFO  compiling root (1 scala source)
+2023.04.25 07:09:53 INFO  time: compiled root in 21ms
+2023.04.25 07:10:15 INFO  compiling root (1 scala source)
+2023.04.25 07:10:15 INFO  time: compiled root in 75ms
+2023.04.25 07:10:38 INFO  compiling root (1 scala source)
+2023.04.25 07:10:38 INFO  time: compiled root in 57ms
+Apr 25, 2023 7:10:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: illegal cyclic reference involving method createServer
+scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving method createServer
+
+Apr 25, 2023 7:10:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 1)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 1)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.reflect.internal.Symbols.cloneSymbols(Symbols.scala:3766)
+	at scala.reflect.internal.Symbols.cloneSymbols$(Symbols.scala:3762)
+	at scala.reflect.internal.SymbolTable.cloneSymbols(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.isPolySubType(TypeComparers.scala:358)
+	at scala.reflect.internal.tpe.TypeComparers.isSub2$1(TypeComparers.scala:410)
+	at scala.reflect.internal.tpe.TypeComparers.isSub$1(TypeComparers.scala:407)
+	at scala.reflect.internal.tpe.TypeComparers.isHKSubType(TypeComparers.scala:433)
+	at scala.reflect.internal.tpe.TypeComparers.isHKSubType$(TypeComparers.scala:382)
+	at scala.reflect.internal.SymbolTable.isHKSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:446)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.Types.isSubArg$1(Types.scala:4764)
+	at scala.reflect.internal.Types.$anonfun$isSubArgs$1(Types.scala:4768)
+	at scala.reflect.internal.Types.isSubArgs(Types.scala:4768)
+	at scala.reflect.internal.Types.isSubArgs$(Types.scala:4762)
+	at scala.reflect.internal.SymbolTable.isSubArgs(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.firstTry$1(TypeComparers.scala:470)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:615)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeComparers.firstTry$1(TypeComparers.scala:476)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType2(TypeComparers.scala:615)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType1(TypeComparers.scala:347)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType(TypeComparers.scala:305)
+	at scala.reflect.internal.tpe.TypeComparers.isSubType$(TypeComparers.scala:267)
+	at scala.reflect.internal.SymbolTable.isSubType(SymbolTable.scala:28)
+	at scala.reflect.internal.Types$Type.$less$colon$less(Types.scala:809)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.loop$3(Implicits.scala:769)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.checkCompatibility(Implicits.scala:771)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.normSubType(Implicits.scala:469)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.matchesPt(Implicits.scala:653)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.scala$tools$nsc$typechecker$Implicits$ImplicitSearch$$matchesPt(Implicits.scala:663)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.survives(Implicits.scala:1048)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.eligibleNew(Implicits.scala:1125)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.<init>(Implicits.scala:1179)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1307)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1727)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:112)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:91)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:88)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:46)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:45)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:263)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:869)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:488)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1273)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6062)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedFunction(Typers.scala:6136)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedFunction(Typers.scala:3072)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$106(Typers.scala:5932)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedFunction$1(Typers.scala:497)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5969)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:3421)
+	at scala.tools.nsc.typechecker.Typers$Typer.handlePolymorphicCall$1(Typers.scala:3822)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3841)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5101)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDefDef(Typers.scala:6311)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5956)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2057)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5958)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5640)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:467)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1369)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1362)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.meta.internal.pc.PcCollector.<init>(PcCollector.scala:29)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.<init>(PcDocumentHighlightProvider.scala:11)
+
+Apr 25, 2023 7:10:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 1)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 1)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.reflect.internal.Symbols.cloneSymbols(Symbols.scala:3766)
+	at scala.reflect.internal.Symbols.cloneSymbols$(Symbols.scala:3762)
+	at scala.reflect.internal.SymbolTable.cloneSymbols(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:140)
+	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:128)
+	at scala.reflect.internal.Types$RefinedType.mapOver(Types.scala:1863)
+	at scala.reflect.internal.tpe.TypeMaps$SubstMap.apply(TypeMaps.scala:754)
+	at scala.reflect.internal.Types$Type.subst(Types.scala:735)
+	at scala.reflect.internal.Types$Type.instantiateTypeParams(Types.scala:481)
+	at scala.reflect.internal.Types$TypeRef.seenFromOwnerInstantiated$1(Types.scala:2485)
+	at scala.reflect.internal.Types$TypeRef.relativize(Types.scala:2489)
+	at scala.reflect.internal.Types$AliasTypeRef.betaReduce(Types.scala:2285)
+	at scala.reflect.internal.Types$AliasTypeRef.betaReduce$(Types.scala:2285)
+	at scala.reflect.internal.Types$AliasArgsTypeRef.betaReduce(Types.scala:2725)
+	at scala.reflect.internal.Types$AliasTypeRef.dealias(Types.scala:2229)
+	at scala.reflect.internal.Types$AliasTypeRef.dealias$(Types.scala:2229)
+	at scala.reflect.internal.Types$AliasArgsTypeRef.dealias(Types.scala:2725)
+	at scala.reflect.internal.Types$Type.dealiasWiden(Types.scala:540)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.isPlausiblySubType(Implicits.scala:777)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.loop$3(Implicits.scala:769)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.checkCompatibility(Implicits.scala:771)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.isPlausiblyCompatible(Implicits.scala:468)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.survives(Implicits.scala:1046)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.eligibleNew(Implicits.scala:1125)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch$ImplicitComputation.<init>(Implicits.scala:1179)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.searchImplicit(Implicits.scala:1307)
+	at scala.tools.nsc.typechecker.Implicits$ImplicitSearch.bestImplicit(Implicits.scala:1727)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit1(Implicits.scala:112)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit(Implicits.scala:91)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicit$(Implicits.scala:88)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicit(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor(Implicits.scala:46)
+	at scala.tools.nsc.typechecker.Implicits.inferImplicitFor$(Implicits.scala:45)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.inferImplicitFor(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Typers$Typer.applyImplicitArgs(Typers.scala:263)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$adapt$1(Typers.scala:869)
+	at scala.tools.nsc.typechecker.Typers$Typer.adaptToImplicitMethod$1(Typers.scala:488)
+	at scala.tools.nsc.typechecker.Typers$Typer.adapt(Typers.scala:1273)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6062)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTypeApply$1(Typers.scala:6139)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5968)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedBlock(Typers.scala:2558)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5966)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6001)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedArg(Typers.scala:3421)
+	at scala.tools.nsc.typechecker.Typers$Typer.handlePolymorphicCall$1(Typers.scala:3822)
+	at scala.tools.nsc.typechecker.Typers$Typer.doTypedApply(Typers.scala:3841)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5101)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.computeType(Typers.scala:6136)
+	at scala.tools.nsc.typechecker.Namers$Namer.assignTypeToTree(Namers.scala:1127)
+	at scala.tools.nsc.typechecker.Namers$Namer.methodSig(Namers.scala:1447)
+	at scala.tools.nsc.typechecker.Namers$Namer.memberSig(Namers.scala:1927)
+	at scala.tools.nsc.typechecker.Namers$Namer.typeSig(Namers.scala:1878)
+	at scala.tools.nsc.typechecker.Namers$Namer$MonoTypeCompleter.completeImpl(Namers.scala:874)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:2075)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:2073)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:2068)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1563)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1535)
+	at scala.meta.internal.pc.CompletionItemResolver.fullDocstring(CompletionItemResolver.scala:66)
+	at scala.meta.internal.pc.CompletionItemResolver.$anonfun$handleSymbol$2(CompletionItemResolver.scala:39)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs(ItemResolver.scala:75)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs$(ItemResolver.scala:14)
+	at scala.meta.internal.pc.CompletionItemResolver.enrichDocs(CompletionItemResolver.scala:8)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:40)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+
+2023.04.25 07:10:53 INFO  compiling root (1 scala source)
+2023.04.25 07:10:53 INFO  time: compiled root in 62ms
+2023.04.25 07:11:34 INFO  compiling root (1 scala source)
+2023.04.25 07:11:34 INFO  time: compiled root in 71ms
+2023.04.25 07:12:02 INFO  compiling root (1 scala source)
+2023.04.25 07:12:02 INFO  time: compiled root in 57ms
+2023.04.25 07:12:20 INFO  compiling root (1 scala source)
+2023.04.25 07:12:20 INFO  time: compiled root in 56ms
+2023.04.25 07:12:34 INFO  compiling root (1 scala source)
+2023.04.25 07:12:34 INFO  time: compiled root in 57ms
+2023.04.25 07:13:21 INFO  compiling root (1 scala source)
+2023.04.25 07:13:21 INFO  time: compiled root in 70ms
+2023.04.25 07:15:09 INFO  compiling root (1 scala source)
+2023.04.25 07:15:09 INFO  time: compiled root in 58ms
+2023.04.25 07:15:29 INFO  compiling root (1 scala source)
+2023.04.25 07:15:29 INFO  time: compiled root in 65ms
+2023.04.25 07:15:50 INFO  compiling root (1 scala source)
+2023.04.25 07:15:50 INFO  time: compiled root in 69ms
+2023.04.25 07:16:08 INFO  compiling root (1 scala source)
+2023.04.25 07:16:08 INFO  time: compiled root in 77ms
+2023.04.25 07:16:29 INFO  compiling root (1 scala source)
+2023.04.25 07:16:29 INFO  time: compiled root in 0.35s
+2023.04.25 07:16:32 INFO  compiling root (1 scala source)
+2023.04.25 07:16:32 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:16:32 INFO  time: compiled root in 0.33s
+2023.04.25 07:18:13 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:31: error: [dialect scala213] type application is not allowed for postfix operators
+          Monad[IO].pure(Left(ref))
+                   ^
+2023.04.25 07:18:13 INFO  compiling root (1 scala source)
+2023.04.25 07:18:13 INFO  time: compiled root in 21ms
+2023.04.25 07:18:20 INFO  compiling root (1 scala source)
+2023.04.25 07:18:20 INFO  time: compiled root in 0.33s
+2023.04.25 07:18:23 INFO  compiling root (1 scala source)
+2023.04.25 07:18:23 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:18:23 INFO  time: compiled root in 0.33s
+2023.04.25 07:20:50 INFO  compiling root (1 scala source)
+2023.04.25 07:20:50 INFO  time: compiled root in 56ms
+2023.04.25 07:20:53 INFO  compiling root (1 scala source)
+2023.04.25 07:20:53 INFO  time: compiled root in 52ms
+2023.04.25 07:21:03 INFO  compiling root (1 scala source)
+2023.04.25 07:21:03 INFO  time: compiled root in 55ms
+2023.04.25 07:21:09 INFO  compiling root (1 scala source)
+2023.04.25 07:21:09 INFO  time: compiled root in 61ms
+2023.04.25 07:21:14 INFO  compiling root (1 scala source)
+2023.04.25 07:21:14 INFO  time: compiled root in 53ms
+2023.04.25 07:21:18 INFO  compiling root (1 scala source)
+2023.04.25 07:21:18 INFO  time: compiled root in 0.3s
+2023.04.25 07:21:42 INFO  compiling root (1 scala source)
+2023.04.25 07:21:43 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:21:42 INFO  time: compiled root in 0.32s
+something's wrong: no file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala in cats.effect.kernel.Ref[cats.effect.IO,<error>]RangePosition(file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala, 890, 890, 906)
+something's wrong: no file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala in cats.effect.kernel.Ref[cats.effect.IO,<error>]RangePosition(file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala, 890, 890, 907)
+something's wrong: no file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala in cats.effect.kernel.Ref[cats.effect.IO,<error>]RangePosition(file:///home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala, 890, 890, 900)
+2023.04.25 07:22:39 INFO  compiling root (1 scala source)
+2023.04.25 07:22:39 INFO  time: compiled root in 67ms
+2023.04.25 07:22:43 INFO  compiling root (1 scala source)
+2023.04.25 07:22:43 INFO  time: compiled root in 0.46s
+Apr 25, 2023 7:22:55 AM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: chtserv/Server.createServer().(list)
+illegal cyclic reference involving method createServer
+Apr 25, 2023 7:22:55 AM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: chtserv/Server.createServer().(list)
+-1 is out of bounds (min 0, max 2)
+Apr 25, 2023 7:22:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 2)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1030)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.nonLocalMember(Types.scala:652)
+	at scala.tools.nsc.typechecker.Typers$Typer.member(Typers.scala:669)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$57(Typers.scala:5265)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelect$1(Typers.scala:5265)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:5417)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5078)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:698)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5080)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5110)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5991)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedDefDef(Typers.scala:6311)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5956)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2057)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5958)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5640)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:467)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1369)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1362)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.meta.internal.pc.PcCollector.<init>(PcCollector.scala:29)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.<init>(PcDocumentHighlightProvider.scala:11)
+
+2023.04.25 07:23:06 INFO  compiling root (1 scala source)
+2023.04.25 07:23:06 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:23:06 INFO  time: compiled root in 0.33s
+2023.04.25 07:23:36 INFO  compiling root (1 scala source)
+2023.04.25 07:23:36 INFO  time: compiled root in 76ms
+2023.04.25 07:23:47 INFO  compiling root (1 scala source)
+2023.04.25 07:23:47 INFO  time: compiled root in 72ms
+2023.04.25 07:23:53 INFO  compiling root (1 scala source)
+2023.04.25 07:23:53 INFO  time: compiled root in 69ms
+2023.04.25 07:24:01 INFO  compiling root (1 scala source)
+2023.04.25 07:24:01 INFO  time: compiled root in 63ms
+2023.04.25 07:24:08 INFO  compiling root (1 scala source)
+2023.04.25 07:24:08 INFO  time: compiled root in 59ms
+2023.04.25 07:24:16 INFO  compiling root (1 scala source)
+2023.04.25 07:24:16 INFO  time: compiled root in 0.35s
+2023.04.25 07:24:23 INFO  compiling root (1 scala source)
+2023.04.25 07:24:23 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:24:23 INFO  time: compiled root in 0.3s
+2023.04.25 07:28:27 INFO  compiling root (1 scala source)
+2023.04.25 07:28:27 INFO  time: compiled root in 0.3s
+2023.04.25 07:40:07 INFO  compiling root (1 scala source)
+2023.04.25 07:40:07 INFO  time: compiled root in 66ms
+2023.04.25 07:40:07 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:10 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:15 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:17 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:17 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:19 INFO  compiling root (1 scala source)
+2023.04.25 07:40:19 INFO  time: compiled root in 65ms
+2023.04.25 07:40:19 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:45 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:40:55 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:27 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:47 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+Apr 25, 2023 7:41:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5426
+2023.04.25 07:41:54 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:54 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:54 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:56 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:56 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:57 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:57 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:41:58 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:42:02 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:42:03 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:42:05 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:42:06 INFO  compiling root (1 scala source)
+2023.04.25 07:42:06 INFO  time: compiled root in 56ms
+2023.04.25 07:42:06 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:42:10 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:04 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:06 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:07 INFO  compiling root (1 scala source)
+2023.04.25 07:43:07 INFO  time: compiled root in 60ms
+2023.04.25 07:43:07 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:10 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:16 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:43:59 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:44:03 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:45:25 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:45:33 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:46:59 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:47:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:49:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:49:53 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:49:54 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:50:46 INFO  compiling root (1 scala source)
+2023.04.25 07:50:46 INFO  time: compiled root in 53ms
+2023.04.25 07:50:51 INFO  compiling root (1 scala source)
+2023.04.25 07:50:51 INFO  time: compiled root in 59ms
+2023.04.25 07:50:54 INFO  compiling root (1 scala source)
+2023.04.25 07:50:54 INFO  time: compiled root in 53ms
+2023.04.25 07:50:58 INFO  compiling root (1 scala source)
+2023.04.25 07:50:58 INFO  time: compiled root in 0.33s
+2023.04.25 07:51:03 INFO  compiling root (1 scala source)
+2023.04.25 07:51:03 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:51:03 INFO  time: compiled root in 0.33s
+2023.04.25 07:52:31 INFO  compiling root (1 scala source)
+2023.04.25 07:52:31 INFO  time: compiled root in 0.32s
+2023.04.25 07:52:48 INFO  compiling root (1 scala source)
+2023.04.25 07:52:48 INFO  time: compiled root in 54ms
+2023.04.25 07:52:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:52:50 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:52:55 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:02 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:07 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:08 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:09 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:14 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:20 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+Apr 25, 2023 7:53:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5892
+2023.04.25 07:53:21 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:21 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:22 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:23 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:23 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:24 INFO  compiling root (1 scala source)
+2023.04.25 07:53:24 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:53:24 INFO  time: compiled root in 0.32s
+2023.04.25 08:15:42 INFO  compiling root (1 scala source)
+2023.04.25 08:15:42 INFO  time: compiled root in 0.17s
+2023.04.25 08:16:15 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/models/server/ConnectedUser.scala:7: error: [dialect scala213] : expected but , found
+        userInputStream,
+                       ^
+2023.04.25 08:16:15 INFO  compiling root (1 scala source)
+2023.04.25 08:16:15 INFO  time: compiled root in 22ms
+2023.04.25 08:16:26 INFO  compiling root (1 scala source)
+2023.04.25 08:16:26 INFO  time: compiled root in 0.3s
+2023.04.25 08:17:43 INFO  compiling root (1 scala source)
+2023.04.25 08:17:43 INFO  time: compiled root in 0.33s
