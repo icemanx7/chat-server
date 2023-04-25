@@ -10,3 +10,132 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.04.07 07:34:32 INFO  Shutting down server[0m
 2023.04.07 07:34:32 INFO  shutting down Metals[0m
 2023.04.07 07:34:32 INFO  Exiting server[0m
+2023.04.25 06:35:13 INFO  Started: Metals version 0.11.12+5-d340b750-SNAPSHOT in workspace '/home/icemanx7/Scala/chat-server' for client Visual Studio Code 1.77.3.
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/icemanx7/Scala/chat-server/.metals/metals (H2 2.1)
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.010s)
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 25, 2023 6:35:14 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.25 06:35:14 INFO  time: initialize in 0.3s
+2023.04.25 06:35:15 INFO  Attempting to connect to the build server...
+2023.04.25 06:35:15 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk defined at /home/icemanx7/.bloop/bloop.json
+2023.04.25 06:35:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/icemanx7/Scala/chat-server/.metals/bsp.trace.json or /home/icemanx7/.cache/metals/bsp.trace.json
+2023.04.25 06:35:15 INFO  Attempting to connect to the build server...
+2023.04.25 06:35:15 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk defined at /home/icemanx7/.bloop/bloop.json
+2023.04.25 06:35:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/icemanx7/Scala/chat-server/project/.metals/bsp.trace.json or /home/icemanx7/.cache/metals/bsp.trace.json
+2023.04.25 06:35:15 INFO  time: Connected to build server in 0.16s
+2023.04.25 06:35:15 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.25 06:35:16 INFO  no build target found for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.25 06:35:16 INFO  time: code lens generation in 1.39s
+2023.04.25 06:35:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.
+2023.04.25 06:35:18 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.
+2023.04.25 06:35:18 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.
+2023.04.25 06:35:18 INFO  time: indexed workspace in 1.94s
+2023.04.25 06:39:08 INFO  compiling root (1 scala source)
+2023.04.25 06:39:08 INFO  time: compiled root in 0.33s
+2023.04.25 06:39:23 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:50: error: [dialect scala213] } expected but end of file found
+
+^
+2023.04.25 06:39:23 INFO  compiling root (1 scala source)
+2023.04.25 06:39:23 INFO  time: compiled root in 50ms
+2023.04.25 06:39:23 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:39:27 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:39:28 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:39:29 INFO  compiling root (1 scala source)
+2023.04.25 06:39:29 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:39:29 INFO  time: compiled root in 0.44s
+2023.04.25 06:42:05 INFO  compiling root (1 scala source)
+2023.04.25 06:42:05 INFO  time: compiled root in 70ms
+2023.04.25 06:45:00 INFO  compiling root (1 scala source)
+2023.04.25 06:45:00 INFO  time: compiled root in 0.3s
+2023.04.25 06:45:38 INFO  compiling root (1 scala source)
+2023.04.25 06:45:38 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:45:38 INFO  time: compiled root in 0.31s
+2023.04.25 06:47:58 INFO  compiling root (1 scala source)
+2023.04.25 06:47:58 INFO  time: compiled root in 0.32s
+2023.04.25 06:48:48 INFO  compiling root (1 scala source)
+2023.04.25 06:48:48 INFO  time: compiled root in 55ms
+2023.04.25 06:48:49 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:48:52 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:48:53 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:48:53 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:48:54 INFO  compiling root (1 scala source)
+2023.04.25 06:48:54 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:48:54 INFO  time: compiled root in 0.31s
+2023.04.25 06:52:49 INFO  compiling root (1 scala source)
+2023.04.25 06:52:49 INFO  time: compiled root in 0.28s
+2023.04.25 06:54:39 ERROR scalafmt: /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala:30: error: [dialect scala213] : expected but identifier found
+      def runWhile(argL BufferedReader): Unit
+                        ^
+2023.04.25 06:54:39 INFO  compiling root (1 scala source)
+2023.04.25 06:54:39 INFO  time: compiled root in 29ms
+2023.04.25 06:54:40 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:44 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:47 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:47 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:48 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:52 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:53 INFO  compiling root (1 scala source)
+2023.04.25 06:54:53 INFO  time: compiled root in 43ms
+2023.04.25 06:54:53 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:54:57 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:55:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:55:02 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:55:02 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:55:03 INFO  compiling root (1 scala source)
+2023.04.25 06:55:03 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:55:03 INFO  time: compiled root in 0.28s
+2023.04.25 06:55:15 INFO  compiling root (1 scala source)
+2023.04.25 06:55:15 INFO  time: compiled root in 49ms
+2023.04.25 06:55:23 INFO  compiling root (1 scala source)
+2023.04.25 06:55:23 INFO  time: compiled root in 45ms
+2023.04.25 06:55:52 INFO  compiling root (1 scala source)
+2023.04.25 06:55:52 INFO  time: compiled root in 45ms
+2023.04.25 06:56:56 INFO  compiling root (1 scala source)
+2023.04.25 06:56:56 INFO  time: compiled root in 45ms
+2023.04.25 06:56:59 INFO  compiling root (1 scala source)
+2023.04.25 06:56:59 INFO  time: compiled root in 39ms
+2023.04.25 06:57:06 INFO  compiling root (1 scala source)
+2023.04.25 06:57:06 INFO  time: compiled root in 0.3s
+2023.04.25 06:57:14 INFO  compiling root (1 scala source)
+2023.04.25 06:57:14 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:57:14 INFO  time: compiled root in 0.31s
+2023.04.25 06:57:17 INFO  compiling root (1 scala source)
+2023.04.25 06:57:17 INFO  time: compiled root in 0.42s
+2023.04.25 06:58:01 INFO  compiling root (1 scala source)
+2023.04.25 06:58:01 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:58:01 INFO  time: compiled root in 0.3s
+2023.04.25 06:58:27 INFO  compiling root (1 scala source)
+2023.04.25 06:58:27 INFO  time: compiled root in 0.29s
+2023.04.25 06:59:22 INFO  compiling root (1 scala source)
+2023.04.25 06:59:22 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 06:59:22 INFO  time: compiled root in 0.29s
+2023.04.25 07:01:01 INFO  compiling root (1 scala source)
+2023.04.25 07:01:01 INFO  time: compiled root in 0.31s
+2023.04.25 07:01:06 INFO  compiling root (1 scala source)
+2023.04.25 07:01:06 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:01:06 INFO  time: compiled root in 0.32s
+2023.04.25 07:01:33 INFO  compiling root (1 scala source)
+2023.04.25 07:01:33 INFO  time: compiled root in 0.32s
+2023.04.25 07:01:45 INFO  compiling root (1 scala source)
+2023.04.25 07:01:45 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:01:45 INFO  time: compiled root in 0.33s
+2023.04.25 07:02:31 INFO  compiling root (1 scala source)
+2023.04.25 07:02:31 INFO  time: compiled root in 0.32s
+2023.04.25 07:03:26 INFO  compiling root (1 scala source)
+2023.04.25 07:03:27 WARN  Could not load snapshot text for /home/icemanx7/Scala/chat-server/src/main/scala/chtserv/Server.scala
+2023.04.25 07:03:26 INFO  time: compiled root in 0.44s
+2023.04.25 07:04:27 INFO  compiling root (1 scala source)
+2023.04.25 07:04:27 INFO  time: compiled root in 0.3s
