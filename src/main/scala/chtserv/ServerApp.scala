@@ -48,12 +48,12 @@ object ServerApp extends IOApp {
       socketListener <- IO(listener.accept())
       socketReader <- IO(
         new BufferedReader(
-          new InputStreamReader(socketListener.getInputStream())
+          new InputStreamReader(socketListener.getInputStream)
         )
       )
       socketWriter <- IO(
         new BufferedWriter(
-          new OutputStreamWriter(socketListener.getOutputStream())
+          new OutputStreamWriter(socketListener.getOutputStream)
         )
       )
       nickName <- IO(socketReader.readLine())
@@ -89,9 +89,9 @@ object ServerApp extends IOApp {
   class ConnectedClients[F[_]: Concurrent](
       clients: Ref[F, List[ConnectedUserModel]]
   ) {
-    def addUser(user: ConnectedUserModel): F[Unit] = {
+    def addUser(user: ConnectedUserModel): F[Unit] =
       clients.getAndUpdate(clients => user :: clients).void
-    }
+
     def getAll: F[List[ConnectedUserModel]] = clients.get
     def allMinusMe(nickName: String): F[List[ConnectedUserModel]] =
       clients.get.map(_.filter(_.userNickName != nickName))

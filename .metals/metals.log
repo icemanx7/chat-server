@@ -740,3 +740,344 @@ WARNING: Unmatched cancel notification for request id 5892
 2023.04.25 08:16:26 INFO  time: compiled root in 0.3s
 2023.04.25 08:17:43 INFO  compiling root (1 scala source)
 2023.04.25 08:17:43 INFO  time: compiled root in 0.33s
+2023.04.25 09:51:20 INFO  Started: Metals version 0.11.12+5-d340b750-SNAPSHOT in workspace '/Users/richardthomas/Scala/chat-server' for client Visual Studio Code 1.77.3.
+Apr 25, 2023 9:51:20 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 25, 2023 9:51:20 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 25, 2023 9:51:20 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 25, 2023 9:51:23 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/richardthomas/Scala/chat-server/.metals/metals (H2 2.1)
+Apr 25, 2023 9:51:23 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Apr 25, 2023 9:51:23 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 25, 2023 9:51:23 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.25 09:51:23 INFO  time: initialize in 2.43s
+2023.04.25 09:51:24 WARN  Build server is not auto-connectable.
+2023.04.25 09:51:24 WARN  no build target for: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 09:51:45 INFO  no build target found for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.25 09:51:46 INFO  time: code lens generation in 22s
+2023.04.25 10:29:52 INFO  running '/Users/richardthomas/.asdf/installs/java/zulu-11.58.23/zulu-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/0f/43gj40y57jq6hjpp2p1hmgw40000gp/T/metals1370158899956929883/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.25 10:29:54 INFO  [info] welcome to sbt 1.8.2 (Azul Systems, Inc. Java 11.0.16.1)
+2023.04.25 10:29:55 INFO  [info] loading global plugins from /Users/richardthomas/.sbt/1.0/plugins
+2023.04.25 10:29:55 INFO  [info] loading settings for project chat-server-build-build from metals.sbt ...
+2023.04.25 10:29:55 INFO  [info] loading project definition from /Users/richardthomas/Scala/chat-server/project/project
+2023.04.25 10:29:55 INFO  [info] loading settings for project chat-server-build from metals.sbt ...
+2023.04.25 10:29:56 INFO  [info] loading project definition from /Users/richardthomas/Scala/chat-server/project
+2023.04.25 10:29:56 INFO  [success] Generated .bloop/chat-server-build.json
+2023.04.25 10:29:57 INFO  [info] compiling 1 Scala source to /Users/richardthomas/Scala/chat-server/project/target/scala-2.12/sbt-1.0/classes ...
+2023.04.25 10:29:59 INFO  [info] done compiling
+2023.04.25 10:29:59 INFO  [success] Total time: 3 s, completed 25 Apr 2023, 10:29:59
+2023.04.25 10:30:00 INFO  [info] loading settings for project root from build.sbt ...
+2023.04.25 10:30:00 INFO  [info] set current project to chat-server (in build file:/Users/richardthomas/Scala/chat-server/)
+2023.04.25 10:30:00 INFO  [success] Generated .bloop/root.json
+2023.04.25 10:30:00 INFO  [success] Generated .bloop/root-test.json
+2023.04.25 10:30:00 INFO  [success] Total time: 0 s, completed 25 Apr 2023, 10:30:01
+2023.04.25 10:30:01 INFO  time: ran 'sbt bloopInstall' in 8.88s
+2023.04.25 10:30:01 INFO  Attempting to connect to the build server...
+2023.04.25 10:30:01 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home defined at /Users/richardthomas/.bloop/bloop.json
+2023.04.25 10:30:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardthomas/Scala/chat-server/.metals/bsp.trace.json or /Users/richardthomas/Library/Caches/org.scalameta.metals/bsp.trace.json
+Apr 25, 2023 10:30:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2023.04.25 10:30:21 ERROR Timeout waiting for 'build/initialize' response
+2023.04.25 10:30:21 WARN  Retrying connection to the build server Bloop
+2023.04.25 10:30:21 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home defined at /Users/richardthomas/.bloop/bloop.json
+2023.04.25 10:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardthomas/Scala/chat-server/.metals/bsp.trace.json or /Users/richardthomas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.25 10:30:21 INFO  Attempting to connect to the build server...
+2023.04.25 10:30:21 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home defined at /Users/richardthomas/.bloop/bloop.json
+2023.04.25 10:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/richardthomas/Scala/chat-server/project/.metals/bsp.trace.json or /Users/richardthomas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.04.25 10:30:27 INFO  time: Connected to build server in 25s
+2023.04.25 10:30:27 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.25 10:30:27 INFO  time: Imported build in 0.15s
+2023.04.25 10:30:49 INFO  time: indexed workspace in 22s
+2023.04.25 10:30:50 INFO  compiling root (3 scala sources)
+2023.04.25 10:30:57 INFO  time: compiled root in 7.29s
+Apr 25, 2023 10:31:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+2023.04.25 10:39:00 INFO  compiling root (3 scala sources)
+2023.04.25 10:39:04 INFO  time: compiled root in 3.87s
+2023.04.25 10:39:06 INFO  compiling root (1 scala source)
+2023.04.25 10:39:06 INFO  time: compiled root in 0.84s
+2023.04.25 10:39:11 INFO  compiling root (1 scala source)
+2023.04.25 10:39:11 INFO  time: compiled root in 0.93s
+2023.04.25 10:40:19 WARN  Using indexes to guess the definition of Socket
+2023.04.25 10:40:34 WARN  Using indexes to guess the definition of Socket
+Apr 25, 2023 10:43:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+Apr 25, 2023 10:43:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 455
+2023.04.25 10:43:46 INFO  compiling root (1 scala source)
+2023.04.25 10:43:46 INFO  time: compiled root in 0.66s
+2023.04.25 10:44:33 INFO  compiling root (1 scala source)
+2023.04.25 10:44:33 INFO  time: compiled root in 0.5s
+2023.04.25 10:44:41 INFO  compiling root (1 scala source)
+2023.04.25 10:44:41 INFO  time: compiled root in 0.45s
+2023.04.25 10:45:07 INFO  compiling root (1 scala source)
+2023.04.25 10:45:07 INFO  time: compiled root in 0.4s
+2023.04.25 10:45:20 INFO  compiling root (1 scala source)
+2023.04.25 10:45:20 INFO  time: compiled root in 0.42s
+2023.04.25 10:45:25 INFO  compiling root (1 scala source)
+2023.04.25 10:45:25 INFO  time: compiled root in 0.37s
+2023.04.25 10:46:17 INFO  compiling root (1 scala source)
+2023.04.25 10:46:17 INFO  time: compiled root in 0.34s
+Apr 25, 2023 10:46:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 768
+2023.04.25 10:46:34 INFO  compiling root (3 scala sources)
+2023.04.25 10:46:35 INFO  time: compiled root in 1.28s
+2023.04.25 10:47:16 INFO  compiling root (3 scala sources)
+2023.04.25 10:47:16 INFO  time: compiled root in 0.78s
+Apr 25, 2023 10:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1086
+Apr 25, 2023 10:47:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1097
+2023.04.25 10:47:33 INFO  compiling root (3 scala sources)
+2023.04.25 10:47:33 INFO  time: compiled root in 0.8s
+2023.04.25 10:48:16 INFO  file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:28:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: cats.effect.IO[cats.effect.ExitCode]
+  }
+  ^
+2023.04.25 10:48:16 INFO  file:///Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:28:3: stale bloop error: type mismatch;
+ found   : Unit
+ required: cats.effect.IO[cats.effect.ExitCode]
+  }
+  ^
+2023.04.25 10:48:19 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:34: error: [dialect scala213] illegal start of simple expression
+  }
+  ^
+2023.04.25 10:48:19 INFO  compiling root (3 scala sources)
+2023.04.25 10:48:19 INFO  time: compiled root in 0.31s
+2023.04.25 10:48:33 INFO  compiling root (3 scala sources)
+2023.04.25 10:48:33 INFO  time: compiled root in 0.69s
+2023.04.25 10:48:39 INFO  compiling root (3 scala sources)
+2023.04.25 10:48:39 INFO  time: compiled root in 0.64s
+2023.04.25 10:49:44 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:31: error: [dialect scala213] ; expected but <- found
+        userName <- Console[IO]
+                 ^
+2023.04.25 10:49:44 INFO  compiling root (3 scala sources)
+2023.04.25 10:49:44 INFO  time: compiled root in 0.31s
+2023.04.25 10:49:58 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:32: error: [dialect scala213] ; expected but <- found
+        userName <- Console[IO]
+                 ^
+2023.04.25 10:49:58 INFO  compiling root (3 scala sources)
+2023.04.25 10:49:58 INFO  time: compiled root in 0.15s
+2023.04.25 10:50:29 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:36: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 10:50:29 INFO  compiling root (3 scala sources)
+2023.04.25 10:50:29 INFO  time: compiled root in 0.21s
+2023.04.25 10:50:44 INFO  compiling root (3 scala sources)
+2023.04.25 10:50:44 INFO  time: compiled root in 0.67s
+Apr 25, 2023 10:50:47 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 747, count -1, length 791
+2023.04.25 10:50:54 INFO  compiling root (3 scala sources)
+2023.04.25 10:50:54 INFO  time: compiled root in 0.39s
+2023.04.25 10:51:07 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:33: error: [dialect scala213] illegal start of simple pattern
+        } yield IO.unit}
+        ^
+2023.04.25 10:51:07 INFO  compiling root (3 scala sources)
+2023.04.25 10:51:07 INFO  time: compiled root in 99ms
+2023.04.25 10:51:10 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:33: error: [dialect scala213] illegal start of simple pattern
+        } yield IO.unit
+        ^
+2023.04.25 10:51:10 INFO  compiling root (3 scala sources)
+2023.04.25 10:51:10 INFO  time: compiled root in 0.17s
+Apr 25, 2023 10:51:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2002
+2023.04.25 10:51:25 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:34: error: [dialect scala213] identifier expected but } found
+        } yield IO.unit
+        ^
+2023.04.25 10:51:25 INFO  compiling root (3 scala sources)
+2023.04.25 10:51:25 INFO  time: compiled root in 0.2s
+2023.04.25 10:51:37 INFO  compiling root (3 scala sources)
+2023.04.25 10:51:37 INFO  time: compiled root in 0.69s
+Apr 25, 2023 10:52:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2175
+2023.04.25 10:52:19 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:34: error: [dialect scala213] illegal start of simple expression
+        }
+        ^
+2023.04.25 10:52:19 INFO  compiling root (3 scala sources)
+2023.04.25 10:52:19 INFO  time: compiled root in 0.29s
+2023.04.25 10:52:25 INFO  compiling root (3 scala sources)
+2023.04.25 10:52:25 INFO  time: compiled root in 0.79s
+2023.04.25 10:52:37 INFO  compiling root (3 scala sources)
+2023.04.25 10:52:39 INFO  time: compiled root in 2.06s
+2023.04.25 10:52:49 INFO  compiling root (1 scala source)
+2023.04.25 10:52:49 INFO  time: compiled root in 0.5s
+2023.04.25 10:52:54 INFO  compiling root (1 scala source)
+2023.04.25 10:52:54 INFO  time: compiled root in 0.27s
+2023.04.25 10:53:03 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:34: error: [dialect scala213] identifier expected but } found
+        } yield Left(true)
+        ^
+2023.04.25 10:53:03 INFO  compiling root (1 scala source)
+2023.04.25 10:53:03 INFO  time: compiled root in 99ms
+2023.04.25 10:53:11 INFO  compiling root (1 scala source)
+2023.04.25 10:53:12 INFO  time: compiled root in 1s
+2023.04.25 10:53:15 INFO  compiling root (1 scala source)
+2023.04.25 10:53:16 INFO  time: compiled root in 1.09s
+2023.04.25 10:54:27 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:35: error: [dialect scala213] <- expected but } found
+        } yield Left(true)
+        ^
+2023.04.25 10:54:28 INFO  compiling root (1 scala source)
+2023.04.25 10:54:28 INFO  time: compiled root in 0.36s
+2023.04.25 10:54:41 INFO  compiling root (1 scala source)
+2023.04.25 10:54:42 INFO  time: compiled root in 1.3s
+2023.04.25 10:54:46 INFO  compiling root (1 scala source)
+2023.04.25 10:54:47 INFO  time: compiled root in 1.09s
+2023.04.25 10:55:04 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:33: error: [dialect scala213] illegal start of simple expression
+    } yield ExitCode.Success
+    ^
+2023.04.25 10:55:04 INFO  compiling root (1 scala source)
+2023.04.25 10:55:04 INFO  time: compiled root in 0.13s
+2023.04.25 10:55:07 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:35: error: [dialect scala213] } expected but end of file found
+
+^
+2023.04.25 10:55:07 INFO  compiling root (1 scala source)
+2023.04.25 10:55:07 INFO  time: compiled root in 0.15s
+2023.04.25 10:55:10 INFO  compiling root (1 scala source)
+2023.04.25 10:55:11 INFO  time: compiled root in 1.29s
+2023.04.25 10:55:14 INFO  compiling root (1 scala source)
+2023.04.25 10:55:14 INFO  time: compiled root in 0.69s
+2023.04.25 10:57:01 INFO  compiling root (1 scala source)
+2023.04.25 10:57:03 INFO  time: compiled root in 1.34s
+2023.04.25 10:57:54 INFO  compiling root (1 scala source)
+2023.04.25 10:57:54 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:57:54 INFO  time: compiled root in 0.72s
+2023.04.25 10:57:55 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:57:58 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:57:59 INFO  compiling root (1 scala source)
+2023.04.25 10:57:59 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:57:59 INFO  time: compiled root in 0.62s
+2023.04.25 10:58:00 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:07 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:12 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:26 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:28 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:30 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:35 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:39 INFO  compiling root (1 scala source)
+2023.04.25 10:58:39 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:39 INFO  time: compiled root in 0.69s
+2023.04.25 10:58:40 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:46 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:47 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:49 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:50 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:51 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:52 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:54 INFO  compiling root (1 scala source)
+2023.04.25 10:58:54 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 10:58:55 INFO  time: compiled root in 1.87s
+2023.04.25 10:59:57 INFO  compiling root (1 scala source)
+2023.04.25 10:59:59 INFO  time: compiled root in 2.37s
+Apr 25, 2023 11:01:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3379
+2023.04.25 11:01:21 INFO  compiling root (1 scala source)
+2023.04.25 11:01:21 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ServerApp.scala
+2023.04.25 11:01:24 INFO  time: compiled root in 2.52s
+2023.04.25 11:01:52 INFO  compiling root (1 scala source)
+2023.04.25 11:01:54 INFO  time: compiled root in 1.69s
+2023.04.25 11:06:41 INFO  compiling root (1 scala source)
+2023.04.25 11:06:41 INFO  time: compiled root in 0.48s
+2023.04.25 11:06:44 INFO  compiling root (1 scala source)
+2023.04.25 11:06:45 INFO  time: compiled root in 1.15s
+2023.04.25 11:08:01 INFO  compiling root (1 scala source)
+2023.04.25 11:08:02 INFO  time: compiled root in 1.22s
+2023.04.25 11:08:24 INFO  compiling root (1 scala source)
+2023.04.25 11:08:24 INFO  time: compiled root in 0.24s
+2023.04.25 11:08:43 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:37: error: [dialect scala213] illegal start of simple pattern
+        } yield ()
+        ^
+2023.04.25 11:08:43 INFO  compiling root (1 scala source)
+2023.04.25 11:08:43 INFO  time: compiled root in 0.2s
+2023.04.25 11:08:48 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:37: error: [dialect scala213] illegal start of simple pattern
+        } yield Left(true)
+        ^
+2023.04.25 11:08:49 INFO  compiling root (1 scala source)
+2023.04.25 11:08:49 INFO  time: compiled root in 0.12s
+2023.04.25 11:09:15 INFO  compiling root (1 scala source)
+2023.04.25 11:09:19 INFO  time: compiled root in 4.02s
+2023.04.25 11:09:23 INFO  compiling root (1 scala source)
+2023.04.25 11:09:23 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:09:24 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:09:25 INFO  time: compiled root in 1.66s
+2023.04.25 11:09:48 INFO  compiling root (1 scala source)
+2023.04.25 11:09:49 INFO  time: compiled root in 1.16s
+2023.04.25 11:09:53 INFO  compiling root (1 scala source)
+2023.04.25 11:09:53 INFO  time: compiled root in 0.83s
+2023.04.25 11:12:42 INFO  compiling root (1 scala source)
+2023.04.25 11:12:44 INFO  time: compiled root in 1.47s
+2023.04.25 11:14:53 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:37: error: [dialect scala213] <- expected but = found
+_ =          println("RICHARD")
+  ^
+2023.04.25 11:14:54 INFO  compiling root (1 scala source)
+2023.04.25 11:14:54 INFO  time: compiled root in 0.24s
+2023.04.25 11:15:04 INFO  compiling root (1 scala source)
+2023.04.25 11:15:05 INFO  time: compiled root in 1.29s
+2023.04.25 11:15:51 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:36: error: [dialect scala213] illegal start of simple expression
+    } yield ExitCode.Success
+    ^
+2023.04.25 11:15:51 INFO  compiling root (1 scala source)
+2023.04.25 11:15:51 INFO  time: compiled root in 0.33s
+2023.04.25 11:15:52 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:15:54 WARN  Could not load snapshot text for /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala
+2023.04.25 11:15:55 INFO  compiling root (1 scala source)
+2023.04.25 11:15:56 INFO  time: compiled root in 1.18s
+2023.04.25 11:17:34 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:17:34 INFO  compiling root (1 scala source)
+2023.04.25 11:17:34 INFO  time: compiled root in 0.27s
+2023.04.25 11:17:40 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:17:40 INFO  compiling root (1 scala source)
+2023.04.25 11:17:40 INFO  time: compiled root in 0.13s
+2023.04.25 11:17:52 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:17:52 INFO  compiling root (1 scala source)
+2023.04.25 11:17:52 INFO  time: compiled root in 0.14s
+2023.04.25 11:17:55 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:17:55 INFO  compiling root (1 scala source)
+2023.04.25 11:17:55 INFO  time: compiled root in 98ms
+2023.04.25 11:18:06 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:18:06 INFO  compiling root (1 scala source)
+2023.04.25 11:18:06 INFO  time: compiled root in 0.11s
+2023.04.25 11:18:10 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:42: error: [dialect scala213] } expected but yield found
+    } yield ExitCode.Success
+      ^
+2023.04.25 11:18:10 INFO  compiling root (1 scala source)
+2023.04.25 11:18:10 INFO  time: compiled root in 0.14s
+2023.04.25 11:18:38 ERROR scalafmt: /Users/richardthomas/Scala/chat-server/src/main/scala/chtserv/ClientApp.scala:44: error: [dialect scala213] } expected but end of file found
+}
+ ^
+2023.04.25 11:18:38 INFO  compiling root (1 scala source)
+2023.04.25 11:18:38 INFO  time: compiled root in 0.17s
+2023.04.25 11:18:44 INFO  compiling root (1 scala source)
+2023.04.25 11:18:45 INFO  time: compiled root in 1.04s
+2023.04.25 11:18:47 INFO  compiling root (1 scala source)
+2023.04.25 11:18:47 INFO  time: compiled root in 0.78s
+Apr 25, 2023 11:19:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4681
+2023.04.25 11:20:04 INFO  compiling root (1 scala source)
+2023.04.25 11:20:05 INFO  time: compiled root in 1.33s
+Apr 25, 2023 11:20:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4823
+2023.04.25 11:21:14 INFO  compiling root (1 scala source)
+2023.04.25 11:21:14 INFO  time: compiled root in 0.59s
+2023.04.25 11:21:21 INFO  compiling root (1 scala source)
+2023.04.25 11:21:22 INFO  time: compiled root in 1.2s
+2023.04.25 11:22:44 INFO  compiling root (1 scala source)
+2023.04.25 11:22:46 INFO  time: compiled root in 1.52s
+2023.04.25 11:23:56 INFO  compiling root (1 scala source)
+2023.04.25 11:23:56 INFO  time: compiled root in 0.43s
+2023.04.25 11:24:05 INFO  compiling root (1 scala source)
+2023.04.25 11:24:07 INFO  time: compiled root in 1.25s
