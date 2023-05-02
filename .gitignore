@@ -5,3 +5,6 @@ target/
 project/metals.sbt
 project/project/metals.sbt
 *.log
+.metals/metals.log
+.metals/metals.mv.db
+.metals

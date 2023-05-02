@@ -28,9 +28,11 @@ import java.io.BufferedWriter
 import java.io.OutputStreamWriter
 
 object ServerApp extends IOApp {
+
   val listener: ServerSocket = new ServerSocket(9080)
 
   def generateUUID: IO[UUID] = IO(UUID.randomUUID())
+
   def run(args: List[String]): IO[ExitCode] = {
     for {
       ref <- ConnectedClients[IO]()
